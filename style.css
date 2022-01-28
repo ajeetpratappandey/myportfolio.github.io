@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montagu+Slab:wght@200&display=swap');
+
+
+*{
+      margin: 0;
+      padding: 0;
+  }
+  .sidebar{
+      position: absolute;
+    background-color:aquamarine;
+    /* width:434px; */
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+   
+  }
+  .sidebar nav{
+    padding: 45px;
+   
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 22px;
+    padding: 40px;
+    margin: -30px;
+}
+.sidebar nav li a{
+text-decoration: none;
+color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 86vw;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: pink; */
+    height: 45vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devPic img{
+  height:45vh ;
+    }
+
+.devInfo{
+    font-size: 16px;
+display: flex;
+
+justify-content: center;
+flex-direction: column;
+}
+.hello{font-size: 2em;
+    font-family: 'Montagu Slab', serif;
+   
+  
+}
+.name{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 2.2px;
+    font-family: 'Montagu Slab', serif;
+   
+}
+.about{font-size:2em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montagu Slab', serif;
+  
+}
+.aboutMore{
+    font-size: 1em;
+    margin-top: 4px;
+}
+.buttons{
+    margin-top: 16px;
+    padding: 2px;;
+    font-size: 15px;
+}
+.btn{
+    padding: 8px;
+    border-radius: 26px;
+    color: black;
+    background-color:aquamarine;
+    font-weight: bold;
+    margin: 6px 14px;
+    cursor: pointer;
+    font-size: 1em;
+    
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.contactform {
+
+    padding: 0 134px;
+    
+    font-family: 'Lato', sans-serif;
+    margin: 0px 88px;
+}
+.contactform h1{
+    font-family: 'Lato', sans-serif;
+    margin: 9px;
+    
+}
+.contactform form div{
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    
+       
+        border-radius: 7px;
+        padding: 5px;
+    }
+    .contactform form{
+        margin: 0 40px;
+    }
+
+
+#emailHelp{
+    font-size: 7px;
+    color: blue;
+    margin: -9px -5px;
+    
+}
+#form-check{
+ flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+ margin: 4px;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 5px;
+    margin: 12px 10px;
+}
+.projectContainer{
+    margin: 0px 88px;
+
+}
+.projectItem{
+margin: 20px;
+font-family: 'Lato', sans-serif;
+
+}
+.projectItem p{ 
+    font-family: 'Montagu Slab', serif;
+
+}
+.projectContainer h1 {
+    margin: 0 18px;
+
+}
+h1{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Montagu Slab', serif;
+
+}
+.intro{
+    margin: 0px 88px;
+}
+.intro p{
+    padding: 26px;
+   
+}
+.intro h2{
+    font-family: 'Lato', sans-serif;
+    margin: 12px;
+}
+.intro h1{
+    font-family: 'Lato', sans-serif;
+    margin: 12px;
+}
+.skill{
+    width: 300px;
+    height: 10px;
+    background-color: red;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    font-family: 'Montagu Slab', serif;
+    font-weight: 700;
+}
+.hundred{
+width: 280px;
+background-color: blueviolet;
+}
+.fifty{
+    width: 140px;
+    background-color: goldenrod;
+}
+.t5{
+    width: 100px;
+    background-color: lightgreen;
+}
+
+.t75{
+    width: 250px;
+    background-color: rgb(103, 103, 231);
+}
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+#sh2{
+    font-family: 'Lato', sans-serif;
+
+    margin:0px 99px;
+    font-family: 'Lato', sans-serif;
+}
+#sp{
+    font-size: 12px;
+    font-family: 'Montagu Slab', serif;
+    margin: 0px 99px;
+    padding-top: 30px;
+}
+#ser{
+    margin: 13px;
+}
+.cross{
+    margin-left: 176px;
+}
+.sidebarGo{
+   
+        transform: translate(-225px, 0px);
+        position: absolute;
+    
+}
+
+@media (max-width: 1100px){
+*{
+    /* background-color:rgb(222, 250, 123); */
+}
+.buttons{
+    font-size: 8px;
+}
+.devInfo{
+    font-size: 9px;
+}
+.devPic{
+    display: none;
+}
+.intro,.projectContainer,.contactform{
+    margin: 50px 8px;
+
+}
+
+
+}
